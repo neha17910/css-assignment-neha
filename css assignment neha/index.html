@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Flex + Grid Coffee Menu</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: "Poppins", sans-serif;
+    }
+
+    body{
+        background:#f7f4ef;
+        display:flex;
+        justify-content:center;
+        padding:60px 0;
+    }
+
+    .container{
+        display:flex;
+        justify-content:center;
+        width:100%;
+    }
+
+    .grid{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:25px;
+        width:900px;
+    }
+
+    .card{
+        background:white;
+        padding:20px;
+        border-radius:10px;
+        box-shadow:0 0 10px rgba(0,0,0,0.08);
+    }
+
+    .top{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        font-size:18px;
+        font-weight:600;
+    }
+
+    .price{
+        color:#d4a244;
+        font-weight:700;
+    }
+
+    .desc{
+        margin-top:8px;
+        font-size:13px;
+        color:#666;
+        line-height:1.4;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="grid">
+
+        <!-- CARD 1 -->
+        <div class="card">
+            <div class="top">
+                <span>Cappuccino</span>
+                <span class="price">$49</span>
+            </div>
+            <p class="desc">Usage of the internet is becoming more common due to rapid advance.</p>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="card">
+            <div class="top">
+                <span>Americano</span>
+                <span class="price">$49</span>
+            </div>
+            <p class="desc">Usage of the internet is becoming more common due to rapid advance.</p>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card">
+            <div class="top">
+                <span>Espresso</span>
+                <span class="price">$49</span>
+            </div>
+            <p class="desc">Usage of the internet is becoming more common due to rapid advance.</p>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="card">
+            <div class="top">
+                <span>Macchiato</span>
+                <span class="price">$49</span>
+            </div>
+            <p class="desc">Usage of the internet is becoming more common due to rapid advance.</p>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="card">
+            <div class="top">
+                <span>Mocha</span>
+                <span class="price">$49</span>
+            </div>
+            <p class="desc">Usage of the internet is becoming more common due to rapid advance.</p>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="card">
+            <div class="top">
+                <span>Coffee Latte</span>
+                <span class="price">$49</span>
+            </div>
+            <p class="desc">Usage of the internet is becoming more common due to rapid advance.</p>
+        </div>
+
+        <!-- CARD 7 -->
+        <div class="card">
+            <div class="top">
+                <span>Piccolo Latte</span>
+                <span class="price">$49</span>
+            </div>
+            <p class="desc">Usage of the internet is becoming more common due to rapid advance.</p>
+        </div>
+
+        <!-- CARD 8 -->
+        <div class="card">
+            <div class="top">
+                <span>Ristretto</span>
+                <span class="price">$49</span>
+            </div>
+            <p class="desc">Usage of the internet is becoming more common due to rapid advance.</p>
+        </div>
+
+        <!-- CARD 9 -->
+        <div class="card">
+            <div class="top">
+                <span>Affogato</span>
+                <span class="price">$49</span>
+            </div>
+            <p class="desc">Usage of the internet is becoming more common due to rapid advance.</p>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
